@@ -1,7 +1,7 @@
 # Event Driven Surge Pricing
 Building a predictive framework that can forecast ride-hailing surge probabilities 1–2 hours in advance using event metadata, temporal signals, and historical trip activity.
 
-##Problem Statement
+## Problem Statement
 
 Major events (sports games, concerts, parades) in NYC trigger sudden, highly localized spikes in ride-hailing demand.
 
@@ -13,7 +13,7 @@ These spikes often cause:
 Currently, surge detection is reactive (after the event ends).
 We aim to build a predictive framework that can forecast ride-hailing surge probabilities 1–2 hours in advance using event metadata, temporal signals, and historical trip activity.
 
-##Business Objectives
+## Business Objectives
 
 1. Predict Surge Events: Estimate the probability and intensity of a surge in each zone near an event venue for a specific time window
     1. Estimate attendance
