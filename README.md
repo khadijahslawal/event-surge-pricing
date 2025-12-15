@@ -16,10 +16,14 @@ We aim to build a predictive framework that can forecast ride-hailing surge prob
 ## Business Objectives
 
 1. Predict Surge Events: Estimate the probability and intensity of a surge in each zone near an event venue for a specific time window
-    1. Estimate attendance
-    2. Estimate number of taxi availability
+    a. Estimate attendance
+    b. Estimate number of taxi availability
 2. Quantify Latent Demand: Estimate the Gap between trip requests and available drivers 
-    1. Weather can be a multiplier factor to increase the demand estimation. If its raining after an event demand may be higher than if its not raining after an event
+    a. Weather can be a multiplier factor to increase the demand estimation. If its raining after an event demand may be higher than if its not raining after an event
 3. Recommend Pre-deployment zone: Identify when and where extra driver incentives or positioning could minimize wait times
-    1. There could be multiple events happening  - how do you rank or split the drivers that are recommended to go there
+    b. There could be multiple events happening  - how do you rank or split the drivers that are recommended to go there
 4. Evaluate Revenue Impact: Estimate lost or excess revenue due to under or over supply
+
+## Machine Learning Models Applied
+1. Base Model - Class weighted Gradient Boosting Trees Classifer
+2. Advanced Model - Spark MultiLayer Perceptron Classifier
